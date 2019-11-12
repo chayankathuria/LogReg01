@@ -74,3 +74,5 @@ for epoch in range(len(iris_train)):
 
 # Adding the predicted class as a separate column to check for performance:
 iris_train['pred_class']=p_class
+
+# Check if any class has been mis classified 
